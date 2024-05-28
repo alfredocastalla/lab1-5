@@ -1,0 +1,52 @@
+/* Flexbox Experimentation*/
+.flex-container {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 60px;
+ background-color:pink;
+ outline-style: solid;
+ font-weiht: bold;
+}
+/* Flexbox items */
+.flex-item {
+ background-color:red;
+ padding: 50px;
+ margin: 20px;
+ text-align: center;
+ outline-style: insert;
+ width: 1000px;
+ font-size: 20px;
+}
+/* Grid Layout Play */
+.grid-container {
+ display: grid;
+ grid-template-columns: repeat(5, 1fr);
+ grid-template-row: 
+ gap: 60px;
+ background-color: red;
+ padding: 50px
+ outline-style: solid;
+ height:1000px;
+ font-size: 50px;
+ font-style:Times New Roman;
+ font-weight: bold;
+}
+/* Grid items */
+.grid-item {
+ background-color: coral;
+ text-align: center;
+ padding: 20px;
+ outline-style: double;
+
+}
+  
+ @media (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+   }
+    
+    .grid-container {
+     grid-template-columns: 1fr;
+    }
+   }

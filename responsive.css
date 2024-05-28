@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+body {
+ font-family:sans-serif;
+}
+.responsive-section {
+ padding: 25px;
+ background-color:#ff69b4;
+ text-align: center;
+ color:#00ffff;
+ justify-content: space-between;
+}
+.responsive-nav a {
+    text-decoration:palevioletred;
+    text-decoration:#ff0000;
+    padding: 50px 40px;
+    margin:10px;
+    display:-webkit-inline-box;
+    color: #ffc0cb;
+    background-color:#4934d1;
+    text-align: center;
+}
+.responsive-nav h2 {
+  text-align: center;
+  text-transform: capitalize;
+  color: pink;
+}
+ img h1 {
+ margin: 20px;
+ }
+    
